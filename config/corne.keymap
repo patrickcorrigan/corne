@@ -28,6 +28,11 @@
             key-positions = <21 22>;
             bindings = <&kp SQT>;
         };
+        combo_soft_off {
+            timeout-ms = <50>;
+            key-positions = <10 11>;
+            bindings = <&soft_off>;
+        };
     };
 
 
